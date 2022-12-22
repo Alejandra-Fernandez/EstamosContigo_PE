@@ -39,7 +39,8 @@ class _TodoListPageState extends State<TodoListPage> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Actividades'),
-        backgroundColor: Colors.indigo[400],),
+        backgroundColor: Colors.indigo[400],
+      ),
       body: ListView.builder(
         itemCount: _todos.length,
         itemBuilder: (context, index) => ListTile(

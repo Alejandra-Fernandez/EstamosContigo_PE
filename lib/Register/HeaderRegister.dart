@@ -10,7 +10,7 @@ class HeaderRegister extends StatelessWidget{
         children: <Widget>[
           Center(
             //icono
-            child: Image.asset('assets/img/icono.png',
+            child: Image.asset('assets/icono.png',
               width: MediaQuery.of(context).size.width/2,
               height: 80,
             ),

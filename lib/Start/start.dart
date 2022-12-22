@@ -47,14 +47,14 @@ class Start extends StatelessWidget {
               children: <Widget>[
                 Center(
                   //Elemento 1: icono
-                  child: Image.asset('assets/img/icono.png',
+                  child: Image.asset('assets/icono.png',
                     width: MediaQuery.of(context).size.width/2,
                     height: 200,
                   ),
                 ),
                 Center(
                   //Elemento 2: logo
-                  child: Image.asset('assets/img/letras.png',
+                  child: Image.asset('assets/letras.png',
                     width: MediaQuery.of(context).size.width/2,
                     height: 70,
                   ),
