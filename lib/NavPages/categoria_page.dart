@@ -1,14 +1,23 @@
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
-class CategoriaPage extends StatelessWidget {
+import '../Music/song_page.dart';
+
+class CategoriaPage extends StatefulWidget {
   const CategoriaPage({Key? key}) : super (key: key);
 
   @override
-  Widget build(BuildContext context){
-    return Container(
-      child: Center(
-        child: Text("Chat"),
-      ),
+  _CategoriaPageState createState() => _CategoriaPageState();
+  }
+  class _CategoriaPageState extends State<CategoriaPage> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+        appBar: AppBar(
+        title: Text('Escucha musica'),
+        backgroundColor: Colors.indigo[400],
+        ),
+      body: const SongPage(),
     );
   }
+
 }
